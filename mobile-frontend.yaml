@@ -1,0 +1,52 @@
+application: cosmic-descent-775
+module: mobile-frontend
+version: 1
+runtime: php
+api_version: 1
+threadsafe: true
+
+automatic_scaling:
+  min_idle_instances: 3
+  #max_pending_latency: 2s
+  max_idle_instances: 5
+  
+handlers:
+#- url: /
+#  script: index.php
+
+#- url: /home
+#  script: index.php
+    
+- url: /api/index.php
+  script: api/index.php
+  
+- url: /api/get_source_news.php
+  script: api/get_source_news.php
+  
+- url: /api/reversed_url.php
+  script: api/reversed_url.php
+  
+- url: /api/file_get_content.php
+  script: api/file_get_content.php
+  
+#- url: /index\.php
+#  script: index.php
+
+- url: /css
+  static_dir: css
+  
+- url: /img
+  static_dir: img
+  
+- url: /js
+  static_dir: js
+
+- url: /font
+  static_dir: font
+  
+- url: /(.*\.(gif|png|jpg))$
+  static_files: static/\1
+  upload: static/.*\.(gif|png|jpg)$
+  
+- url: /.*
+  script: mod_rewrite.php

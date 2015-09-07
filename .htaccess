@@ -1,0 +1,15 @@
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>     
+    RewriteEngine On
+   
+     RewriteCond %{HTTP_HOST} ^api\.ainnewsapp\.com$
+     RewriteCond %{REQUEST_URI} !^/api/
+     RewriteRule (.*) /api/$1
+   
+    RewriteCond %{HTTP_HOST} ^www.ainnewsapp.com$
+    RewriteRule (.*) http://ainnewsapp.com/$1 [L] 
+    
+</IfModule>
+
+

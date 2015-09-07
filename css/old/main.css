@@ -1,0 +1,125 @@
+@font-face
+{
+font-family: NeckarFontRegular;
+src: url("fonts/NeckarFontRegular.ttf"),
+     url("fonts/NeckarFontRegular.eot"),url("fonts/NeckarFontRegular.svg");
+} 
+body {
+/*    background: url("../images/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+    font-family: 'HelveticaNeueLTW20-Ligh';
+    margin: 0 auto;
+}
+a {
+    color: #0E7CA1;
+    cursor: pointer;
+    text-decoration: none;
+}
+#lean_overlay {
+    background: none repeat scroll 0 0 #000000;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 130%;
+    z-index: 100;
+}
+#signup, #box-alert {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+    display: none;
+    padding-bottom: 2px;
+    width: 500px;
+}
+.submit {
+    background: none repeat scroll 0 0 #0E7CA1;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    margin-bottom: 12px;
+    margin-right: 22px;
+    padding-bottom: 6px;
+    text-align: center;
+    width: 252px;
+}
+
+
+
+.login-form{
+   width: 400px;
+   margin: auto;
+   border: 1px solid;
+}
+
+.login-form input[type='text'], .login-form input[type='password']{
+   width: 200px;
+}
+
+.login-form input[type='submit']{
+   width: 60px;
+   height: 30px;
+   font-size: 15px;
+   line-height: 12px;
+}
+input, textarea, select {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border-color: #CCCCCC #E7E6E6 #E7E6E6 #CCCCCC;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    color: #222222;
+    direction: rtl;
+    font-family: "HelveticaNeueLTW20-Ligh";
+    font-size: 12px;
+    height: 24px;
+    outline: medium none;
+    padding: 5px;
+}
+
+select{
+   height: 40px;
+}
+
+input[type='submit'] {
+    height: 44px;
+}
+
+table{
+   border-collapse:collapse;
+   border: 1px solid;
+}
+
+table tr td{ 
+   padding: 8px;
+}
+
+table tr th{ 
+   background: #303030;
+   color: white;
+   padding: 8px;
+}
+
+.odd{
+    background: #E0E0E0;
+}
+
+.even{
+    background: #FFFFFF;
+}
+.error{
+    font-size: 12px;
+    color: red;
+}
+
+.menu-checkboxs{
+    border: 1px solid;
+    float: right;
+    margin: 12px;
+    min-height: 200px;
+    min-width: 150px;
+}

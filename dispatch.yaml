@@ -1,0 +1,12 @@
+dispatch:
+  # Default module serves the typical website.
+  #- url: "cosmic-descent-775.appspot.com/"
+  #  module: default
+
+  # Default module serves mobile-frontend request.
+  #- url: "mobile-frontend.cosmic-descent-775.appspot.com/"
+  #  module: mobile-frontend
+
+  # Send all mobile traffic to cron processes.
+  #- url: "my-module.cosmic-descent-775.appspot.com/"
+  #  module: my-module

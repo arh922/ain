@@ -1,0 +1,498 @@
+cron:
+#- description: every 2 mins for empty body news
+#  url: /api/get_source_news.php?type=3
+#  schedule: every 2 minutes synchronized
+#  target: my-module
+#  
+- description: every 60 mins for twitter news
+  url: /api/get_source_news.php?type=1&cid=1&start=0&offset=10
+  schedule: every 60 minutes synchronized
+  target: my-module
+#  
+- description: every 10 mins for twitter news
+  url: /api/get_source_news.php?type=1&cid=1&start=1&offset=10
+  schedule: every 10 minutes synchronized
+  target: my-module
+#  
+- description: every 12 mins for twitter news
+  url: /api/get_source_news.php?type=1&cid=1&start=2&offset=10
+  schedule: every 12 minutes synchronized
+  target: my-module
+#  
+#- description: every 5 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=3&offset=10
+#  schedule: every 5 minutes synchronized
+#  target: my-module
+#  
+#- description: every 10 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=4&offset=10
+#  schedule: every 10 minutes synchronized
+#  target: my-module
+#  
+#- description: every 12 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=5&offset=10
+#  schedule: every 12 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=6&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=7&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 10 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=8&offset=10
+#  schedule: every 10 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=9&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 10 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=10&offset=10
+#  schedule: every 10 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=11&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 15 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=12&offset=10
+#  schedule: every 15 minutes synchronized
+#  target: my-module
+#  
+#- description: every 15 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=13&offset=10
+#  schedule: every 15 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=14&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 10 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=15&offset=10
+#  schedule: every 10 minutes synchronized
+#  target: my-module
+#  
+#- description: every 12 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=16&offset=10
+#  schedule: every 12 minutes synchronized
+#  target: my-module
+#  
+#- description: every 10 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=17&offset=10
+#  schedule: every 10 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=18&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=19&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=20&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 15 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=21&offset=10
+#  schedule: every 15 minutes synchronized
+#  target: my-module
+#  
+#- description: every 10 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=22&offset=10
+#  schedule: every 10 minutes synchronized
+#  target: my-module
+#  
+#- description: every 15 mins for twitter news
+#  url: /api/get_source_news.php?type=1&cid=1&start=23&offset=10
+#  schedule: every 15 minutes synchronized
+#  target: my-module
+#  
+- description: every 15 mins for RSS news
+  url: /api/get_source_news.php?type=2&cid=1&start=0&offset=10
+  schedule: every 15 minutes synchronized
+  target: my-module
+#  
+- description: every 10 mins for RSS news
+  url: /api/get_source_news.php?type=2&cid=1&start=1&offset=10
+  schedule: every 10 minutes synchronized
+  target: my-module
+#  
+- description: every 30 mins for RSS news
+  url: /api/get_source_news.php?type=2&cid=1&start=2&offset=10
+  schedule: every 30 minutes synchronized
+  target: my-module
+#  
+#- description: every 30 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=3&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=4&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=5&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 10 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=6&offset=10
+#  schedule: every 10 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=7&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 15 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=8&offset=10
+#  schedule: every 15 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=9&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=10&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=11&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 12 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=12&offset=10
+#  schedule: every 12 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=13&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=14&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=15&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=16&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 15 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=17&offset=10
+#  schedule: every 15 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=18&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 10 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=19&offset=10
+#  schedule: every 10 minutes synchronized
+#  target: my-module
+#  
+#- description: every 15 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=20&offset=10
+#  schedule: every 15 minutes synchronized
+#  target: my-module
+#  
+#- description: every 5 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=21&offset=10
+#  schedule: every 5 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=22&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=23&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 10 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=24&offset=10
+#  schedule: every 10 minutes synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=25&offset=10
+#  schedule: every 20 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins for RSS news
+#  url: /api/get_source_news.php?type=2&cid=1&start=26&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 40 mins for twitter Economy
+#  url: /api/get_source_news.php?type=1&cid=2&start=0&offset=10
+#  schedule: every 40 mins synchronized
+#  target: my-module
+#    
+#- description: every 20 mins for RSS Economy
+#  url: /api/get_source_news.php?type=2&cid=2&start=0&offset=10
+#  schedule: every 20 mins synchronized
+#  target: my-module
+#  
+#- description: every 20 mins for RSS Economy
+#  url: /api/get_source_news.php?type=2&cid=2&start=1&offset=10
+#  schedule: every 20 mins synchronized
+#  target: my-module
+#  
+#- description: every 30 mins for RSS Economy
+#  url: /api/get_source_news.php?type=2&cid=2&start=2&offset=10
+#  schedule: every 30 mins synchronized
+#  target: my-module
+#  
+#- description: every 15 mins for RSS Economy
+#  url: /api/get_source_news.php?type=2&cid=2&start=3&offset=10
+#  schedule: every 15 mins synchronized  
+#  target: my-module
+#  
+#- description: every 20 mins from twitter tech
+#  url: /api/get_source_news.php?type=1&cid=3&start=0&offset=10
+#  schedule: every 20 mins synchronized
+#  target: my-module
+#
+#- description: every 20 mins from twitter tech
+#  url: /api/get_source_news.php?type=1&cid=3&start=1&offset=10
+#  schedule: every 20 mins synchronized
+#  target: my-module
+#  
+#- description: every 40 mins from twitter tech
+#  url: /api/get_source_news.php?type=1&cid=3&start=2&offset=10
+#  schedule: every 40 mins synchronized
+#  target: my-module
+#  
+#- description: every 30 mins from twitter tech
+#  url: /api/get_source_news.php?type=1&cid=3&start=3&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#    
+#- description: every 15 mins from RSS tech
+#  url: /api/get_source_news.php?type=2&cid=3&start=0&offset=20
+#  schedule: every 15 mins synchronized  
+#  target: my-module
+#  
+#- description: every 40 mins from RSS tech
+#  url: /api/get_source_news.php?type=2&cid=3&start=1&offset=20
+#  schedule: every 40 mins synchronized 
+#  target: my-module
+#  
+#- description: every 40 mins from twitter Art
+#  url: /api/get_source_news.php?type=1&cid=4&start=0&offset=10
+#  schedule: every 40 minutes synchronized
+#  target: my-module
+#  
+#- description: every 160 mins from RSS Art
+#  url: /api/get_source_news.php?type=2&cid=4&start=0&offset=20
+#  schedule: every 160 mins synchronized
+#  target: my-module
+#  
+#- description: every 2 hours from RSS Art
+#  url: /api/get_source_news.php?type=2&cid=4&start=1&offset=20
+#  schedule: every 2 hours synchronized
+#  target: my-module
+#    
+#- description: every 4 hours from twitter Koktail
+#  url: /api/get_source_news.php?type=1&cid=5&start=0&offset=10
+#  schedule: every 4 hours synchronized
+#  target: my-module
+#    
+#- description: every 4 hours from RSS Koktail
+#  url: /api/get_source_news.php?type=2&cid=5&start=0&offset=20
+#  schedule: every 4 hours synchronized
+#  target: my-module
+#  
+#- description: every 3 hours from RSS Koktail
+#  url: /api/get_source_news.php?type=2&cid=5&start=1&offset=20
+#  schedule: every 3 hours synchronized
+#  target: my-module
+#  
+#- description: every 15 mins from twitter Sport
+#  url: /api/get_source_news.php?type=1&cid=6&start=0&offset=10
+#  schedule: every 15 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins from twitter Sport
+#  url: /api/get_source_news.php?type=1&cid=6&start=1&offset=10
+#  schedule: every 30 minutes synchronized
+#  
+#- description: every 40 mins from twitter Sport
+#  url: /api/get_source_news.php?type=1&cid=6&start=2&offset=10
+#  schedule: every 40 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins from twitter Sport
+#  url: /api/get_source_news.php?type=1&cid=6&start=3&offset=10
+#  schedule: every 30 minutes synchronized
+#  
+#- description: every 40 mins from twitter Sport
+#  url: /api/get_source_news.php?type=1&cid=6&start=4&offset=10
+#  schedule: every 40 minutes synchronized
+#  target: my-module
+#
+#- description: every 10 mins from twitter Sport
+#  url: /api/get_source_news.php?type=1&cid=6&start=5&offset=10
+#  schedule: every 10 minutes synchronized
+#  target: my-module
+#  
+#- description: every 30 mins from twitter Sport
+#  url: /api/get_source_news.php?type=1&cid=6&start=6&offset=10
+#  schedule: every 30 minutes synchronized
+#  target: my-module
+#  
+#- description: every 1 hours from RSS Sport
+#  url: /api/get_source_news.php?type=2&cid=6&start=0&offset=10
+#  schedule: every 1 hours synchronized
+#  target: my-module
+#  
+#- description: every 1 hours from RSS Sport
+#  url: /api/get_source_news.php?type=2&cid=6&start=1&offset=10
+#  schedule: every 1 hours synchronized
+#  target: my-module
+#  
+#- description: every 30 mins from RSS Sport
+#  url: /api/get_source_news.php?type=2&cid=6&start=2&offset=10
+#  schedule: every 30 mins synchronized
+#  target: my-module
+#  
+#- description: every 20 mins from RSS Sport
+#  url: /api/get_source_news.php?type=2&cid=6&start=3&offset=10
+#  schedule: every 20 mins synchronized
+#  target: my-module
+#  
+#- description: every 40 mins from RSS Sport
+#  url: /api/get_source_news.php?type=2&cid=6&start=4&offset=10
+#  schedule: every 40 mins synchronized
+#  target: my-module
+#  
+#- description: every 15 mins from RSS Sport
+#  url: /api/get_source_news.php?type=2&cid=6&start=5&offset=10
+#  schedule: every 15 mins synchronized
+#  target: my-module
+#  
+#- description: every 1 hours from twitter Health
+#  url: /api/get_source_news.php?type=1&cid=7&start=0&offset=20
+#  schedule: every 1 hours synchronized
+#  target: my-module
+#  
+#- description: every 80 mins from RSS Health
+#  url: /api/get_source_news.php?type=2&cid=7&start=0&offset=20
+#  schedule: every 80 mins synchronized
+#  target: my-module
+#  
+#- description: every 160 mins from twitter Cooking
+#  url: /api/get_source_news.php?type=1&cid=8&start=0&offset=10
+#  schedule: every 160 mins synchronized
+#  target: my-module
+#
+#- description: every 2 hours from RSS Cooking
+#  url: /api/get_source_news.php?type=2&cid=8&start=0&offset=10
+#  schedule: every 2 hours synchronized
+#  target: my-module
+# 
+#- description: every 3 hours from twitter Beauty and elegance
+#  url: /api/get_source_news.php?type=1&cid=9&start=0&offset=10
+#  schedule: every 3 hours synchronized
+#  target: my-module
+#
+#- description: every 3 hours from RSS Beauty and elegance
+#  url: /api/get_source_news.php?type=2&cid=9&start=0&offset=10
+#  schedule: every 3 hours synchronized
+#  target: my-module
+# 
+#- description: every 2 hours from twitter Woman
+#  url: /api/get_source_news.php?type=1&cid=10&start=0&offset=10
+#  schedule: every 2 hours synchronized
+#  target: my-module
+#
+#- description: every 2 hours from RSS Woman
+#  url: /api/get_source_news.php?type=2&cid=10&start=0&offset=10
+#  schedule: every 2 hours synchronized
+#  target: my-module
+#  
+#- description: every 2 hours from twitter Cars
+#  url: /api/get_source_news.php?type=1&cid=11&start=0&offset=10 
+#  schedule: every 2 hours synchronized
+#  target: my-module
+#  
+#- description: every 160 mins from twitter Cars
+#  url: /api/get_source_news.php?type=2&cid=11&start=0&offset=10 
+#  schedule: every 160 minutes synchronized
+#  target: my-module
+#  
+#- description: every 180 mins from RSS Cars
+#  url: /api/get_source_news.php?type=2&cid=11&start=1&offset=10
+#  schedule: every 180 minutes synchronized
+#  target: my-module
+#
+#- description: every 4 hours from twitter Characters
+#  url: /api/get_source_news.php?type=1&cid=12&start=0&offset=15
+#  schedule: every 4 hours synchronized
+#  target: my-module
+#  
+#- description: every 2 hours from twitter Characters
+#  url: /api/get_source_news.php?type=1&cid=12&start=1&offset=15
+#  schedule: every 2 hours synchronized
+#  target: my-module
+#  
+#- description: every 3 hours from twitter Characters
+#  url: /api/get_source_news.php?type=1&cid=12&start=2&offset=15
+#  schedule: every 3 hours synchronized
+#  target: my-module
+#  
+#- description: every 160 mins from RSS Characters
+#  url: /api/get_source_news.php?type=2&cid=12&start=0&offset=10
+#  schedule: every 160 mins synchronized
+#  target: my-module
+#    
+#- description: every 40 from twitter Weather
+#  url: /api/get_source_news.php?type=1&cid=13&start=0&offset=20
+#  schedule: every 40 minutes synchronized
+#  target: my-module
+#    
+#- description: every 45 mins from RSS Weather
+#  url: /api/get_source_news.php?type=2&cid=13&start=0&offset=20
+#  schedule: every 45 minutes synchronized
+#  target: my-module
+#     
+#- description: every 24 hours for delete old news
+#  url: /api/index.php?action=delete_old_news
+#  schedule: every 24 hours synchronized
+#  target: my-modules

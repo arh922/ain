@@ -1,0 +1,395 @@
+table {
+   text-align: left;
+}
+
+.mod-menu{
+   height: 60px;
+   margin-bottom: 25px;
+}
+.post-details {
+    float: left;
+}
+.ads {
+    float: left;
+}
+.images-details {
+    float: left;
+}
+.images-returned {
+    clear: left;
+}
+.image-community {
+    float: left;
+    direction: ltr;
+}
+.sidebar {
+    float: right;
+    margin-top: -25px;
+}
+.first-block {
+    float: left;
+}
+.image-info{
+    float: left;
+    text-align: left;
+}
+.image-info-img {
+    float: left;
+}
+.image-info div {
+    float: left;
+    padding-left: 12px;
+}
+.image-info span {
+    float: left;
+    text-align: left;
+}
+.image-post {
+    float: left;
+    margin-left: 0 !important;
+}
+.post-display {
+    float: left;
+    text-align: left;
+}
+.post-display div {
+    float: left;
+    margin-left: 12px; 
+    text-align: left;
+}
+.display-shadow{
+    margin: 120px 4px 0 5px;
+    text-align: left;
+}
+.first-block .display-shadow{
+    margin: 255px 4px 0 5px;
+}
+#vote {
+    margin-left: 85px;
+    margin-top: 120px;
+}
+.title-post {
+    float: left;
+}
+.first-block #vote {
+    margin-left: 220px;
+    margin-top: 260px;
+}
+.share-community div {
+    float: right;
+}
+.image-post img {
+    margin-left: 10px;
+}
+.first-block .image-info div {
+    clear:left;
+}
+.first-block .share-community {
+    margin-left: 213px;
+}
+.image-details div {
+    clear: left;
+    float: left;
+}
+.owner-name {
+    margin-right: 10px;
+}
+
+input, textarea, select {
+  float: left;
+}
+
+.showpassword{
+   margin-left: 18px;
+}
+.image-below input,.image-below textarea,.image-below select {
+    float: none;
+}
+.image-display {
+     margin-left: 145px;
+}
+.image-below {
+    clear: left;
+    float: left;
+}
+.comment-image > div {
+    float: left;
+}
+.comment-details{
+    margin-left: 5px;
+    padding: 20px 30px 15px 17px;
+}
+b.onhover-sort {
+    float: right;
+}
+.comment-box {
+    margin-left: 144px;
+}
+.comment-sort-options:after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent #CCCCCC;
+    border-image: none;
+    border-style: solid;
+    border-width: 6px;
+    content: "";
+    margin-left: -25px;
+    margin-top: -45px;
+    position: absolute;
+}
+.comment-sort-options {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #CCCCCC;
+    display: none;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 2px;
+    position: absolute;
+}
+.submit-comment > input {
+    margin-left: 1px; 
+    float: none; 
+}
+.comment-details div {
+    clear: left;
+    float: left;
+}
+.header-logo:after {
+    border-color: transparent #575756 transparent transparent ;
+    border-style: solid;
+    border-width: 10px;
+    content: "";
+    float: left;
+    margin-left: -89px;
+    margin-top: 35px;
+}
+.header-logo {
+    background-color: #575756;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    height: 94px;
+    margin-bottom: -10px;
+    padding: 20px 69px;
+    width: 152px;
+    margin-top: 77px;
+}
+.Development-header {
+    text-align: right;
+}
+.header-search {
+    clear: right;
+    float: right;
+}
+.comment-detail{
+    margin-left: 10px;
+}
+#upload img {
+    float: left;
+    margin-right: 10px;
+}
+.options-search-image div {
+    float: right;
+}
+.search-div{
+    float: left;
+    width: 550px;
+    margin: 6px;
+}
+
+#image_description_div{
+    font-size: 13px;
+    margin-left: -37px;
+}
+
+#moderator_search_div{
+    margin-top: 15px;
+    border-bottom: 1px solid;
+    margin-bottom: 12px;
+}
+
+.onOver{
+    padding: 12px;
+    float: left;
+    cursor: pointer;
+}
+#upload div {
+    width: 102px;      
+    text-align: left; 
+}
+.upload_link {
+     float: left;
+}
+.error{
+    padding-left: 0;
+    margin-top: 63px;
+}
+.nav_down {
+    background: url("../images/upload_row.png") no-repeat scroll 50% 50% transparent;
+    bottom: 0;
+    height: 50px;
+    right: 220px;
+    position: fixed;
+    width: 50px;
+    cursor:pointer;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg); /* IE 9 */
+    -webkit-transform:rotate(180deg);
+}
+.nav_up {
+    background: url("../images/upload_row.png") no-repeat scroll 50% 50% transparent;
+    bottom: 0;
+    height: 50px;
+    right: 270px;
+    position: fixed;
+    width: 50px;
+    cursor:pointer;
+}
+
+/*taymoor*/
+.mouse-over2 {
+    clear: left;
+    float: left;
+}
+#delete_btn {
+    clear: none !important;
+    float: left !important;
+    margin: 1% -20px;
+}
+
+#likes:after {
+    border-color: transparent #CCCCCC transparent white;
+    border-style: outset;
+    border-width: 1px;
+    content: "";
+    float: left;
+    height: 11px;
+    margin-left: -7px;
+    margin-top: -13px;
+    position: absolute;
+}
+.likes-count{
+    margin-top: -1px;
+    margin-right: 15px;
+}
+
+.Reply-comment {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 0;
+}
+
+.Reply-comment-region {
+    margin-left: 5px;
+}
+
+.Reply-comment-box{
+    margin-left: 144px;
+}
+
+.Reply-comment-input-box{
+   width: 500px;
+}
+
+.user-info{
+    float: right;
+}
+
+.time-elapsed-details {
+    font-size: 17px;
+    margin-left: 19px;
+    margin-top: -1px;
+}
+
+.submit-comment > input {
+    font-size: 17px;
+    height: 49px;
+    margin-top: -50px;
+}
+
+.options-search-image {
+    margin-bottom: 50px;
+    margin-left: 290px;
+    margin-top: -201px;
+    position: absolute;
+}
+
+.filter-menu-2 {
+    margin-bottom: 50px;
+    margin-left: 290px;
+    margin-top: -165px;
+    position: absolute;
+    font-size: 14px;
+}
+.order > span {
+    float: left;
+    margin-right: 5px;
+}
+.order span:after {
+    border-color: transparent transparent transparent #ADADAD;
+    margin-left: -3.5px;
+}
+.order-menu {
+    margin-left: 66px;
+}
+.change-lang {
+    margin-right: 250px;
+}
+/*.sign-out-header {
+    margin-left: -215px;
+}  */
+.sign-up:after {
+    margin-left: 7px;
+}
+.sign-up {
+    margin-right: 14px;
+}
+
+.header-content {
+    height: 54px;
+    margin: auto;
+    padding: 10px 0;
+    width: 1283px;
+}
+.logo {
+    float: right;
+    height: 45px;
+    width: 60px;
+}
+.slogan {
+    float: right;
+    height: 45px;
+    margin-right: 75px;
+    width: 200px;
+}
+.login-region {
+    float: left;
+    height: 45px;
+    width: 200px;
+}
+.signup, .welcome {
+    float: left;
+    margin: 5px;
+    width: 115px;
+}
+
+.hint-div{
+    font-size: 12px;
+    color: red;
+}
+.signin, .logout {
+    float: left;
+    margin: 5px;
+}
+
+.faq-q{
+    width: 300px;
+    height: 60px;
+}
+
+.faq-a{
+    width: 300px;
+    height: 100px;
+}
